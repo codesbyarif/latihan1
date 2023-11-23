@@ -11,7 +11,7 @@ if($nilai >0 && $nilai < 50){
     echo "B";
 }else if ($nilai >=80 && $nilai<90) {
     echo "A";
-}else {
+}else if ($nilai >= 90 && $nilai<=100){
     echo "A+";
 }
 ?>
