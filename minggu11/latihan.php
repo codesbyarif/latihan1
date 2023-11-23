@@ -1,8 +1,8 @@
-
-<h2>Menggunakan Perulangan For:</h2>
 <?php
-for ($i=1; $i <= 5; $i++) { 
+$i = 0;
+while ($i < 5) {
     # code...
-    echo "hai saya urutan ke- $i  <br>";
+    echo "Hai,Dunia! <br>";
+    $i++;
 }
 ?>
