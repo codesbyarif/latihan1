@@ -1,8 +1,10 @@
 <?php 
-$x = 10;
-if ($x < 20){
+$x = 20;
+if ($x < 10){
     echo "benar";
-} else {
+} elseif($x == 20) {
+    echo "BINGO";
+}else{
     echo "salah";
 }
 ?>
