@@ -6,6 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <p>hellow world</p>
+    <h1>
+        <?php 
+        echo date('1');
+        ?>
+    </h1>
 </body>
 </html>
